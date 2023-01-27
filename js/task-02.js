@@ -29,7 +29,7 @@ list.append(item);
 /**
  * 3. Añada una clase item al elemento.
  */
-item.innerHTML = '<li class="item"></li>';
+item.classList.add("item");
 
 /**
  * 4. Después, inserte todos los <li> en una sola operación en la lista ul#ingredients.
