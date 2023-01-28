@@ -38,7 +38,7 @@ function createBoxes() {
   box.style.display = "flex";
   box.style.gap = "10px";
   box.style.paddingTop = "5px";
-  box.style.justifyContent = "space-between";
+  box.style.justifyContent = "center";
   box.style.alignItems = "center";
   box.style.flexWrap ="wrap";
 }
